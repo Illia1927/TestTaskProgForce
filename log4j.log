@@ -1,3 +1,20 @@
 2019-09-26 16:05:54 DEBUG JdbcConnector:27 - Connection to DB was not established: 
 2019-09-26 16:05:54 ERROR JdbcConnector:28 - java.sql.SQLSyntaxErrorException: Unknown database 'progforce_jdbc'
 2019-09-26 16:06:29 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 17:57:42 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:10:25 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:10:43 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:15:08 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:20:52 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:27:10 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:27:25 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:28:04 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:28:05 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:29:12 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:44:48 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:44:48 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:45:53 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:45:53 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 19:27:25 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 19:27:25 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Incorrect integer value: 'AVAILABLE' for column 'status_id' at row 1
+2019-09-26 19:39:22 DEBUG JdbcConnector:21 - Connection is ok
