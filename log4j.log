@@ -1,0 +1,3 @@
+2019-09-26 16:05:54 DEBUG JdbcConnector:27 - Connection to DB was not established: 
+2019-09-26 16:05:54 ERROR JdbcConnector:28 - java.sql.SQLSyntaxErrorException: Unknown database 'progforce_jdbc'
+2019-09-26 16:06:29 DEBUG JdbcConnector:21 - Connection is ok
