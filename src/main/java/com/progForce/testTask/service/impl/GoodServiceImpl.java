@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public class GoodServiceImpl implements GoodService {
 
-    private GoodDao goodDao = new GoodDaoImpl(Good.class);
+    private final GoodDao goodDao = new GoodDaoImpl(Good.class);
 
     @Override
     public void addGood(Good good) {
@@ -18,7 +18,7 @@ public class GoodServiceImpl implements GoodService {
 
     @Override
     public Optional<Good> getGoodById(Long id) {
-        return Optional.of(goodDao.readById(id));
+        return goodDao.readById(id);
     }
 
     @Override

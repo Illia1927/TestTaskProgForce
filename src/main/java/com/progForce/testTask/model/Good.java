@@ -1,30 +1,33 @@
 package com.progForce.testTask.model;
 
 public class Good {
-    private Long id;
+    private Integer id;
     private String title;
     private Double price;
-    private Enum status;
+    private String status;
 
-    public Good(String title, Double price, Enum status) {
+    public Good() {
+    }
+
+    public Good(String title, Double price, String status) {
         this.title = title;
         this.price = price;
         this.status = status;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Enum getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(Enum status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 
@@ -42,12 +45,6 @@ public class Good {
 
     public void setPrice(Double price) {
         this.price = price;
-    }
-
-    public enum STATUS{
-        AVAILABLE,
-        ABSENT,
-        EXPECTED
     }
 
     @Override

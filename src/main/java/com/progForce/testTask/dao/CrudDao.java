@@ -7,11 +7,11 @@ import java.util.Optional;
 
 public interface CrudDao<T, ID> {
 
-    T save(T entity);
+    Optional<T> save(T entity);
 
     Optional<Good> deleteById(ID id);
 
-    T readById(ID id);
+    Optional<T> readById(ID id);
 
     void update(T entity);
 

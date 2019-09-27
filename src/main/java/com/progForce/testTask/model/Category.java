@@ -1,22 +1,23 @@
 package com.progForce.testTask.model;
 
-import java.util.List;
-
 public class Category {
-    private Long id;
+    private Integer id;
     private String name;
-    private List<Good> goods;
+    private Integer goodId;
 
-    public Category(String name, List<Good> goods) {
-        this.name = name;
-        this.goods = goods;
+    public Category() {
     }
 
-    public Long getId() {
+    public Category(String name, Integer goodId) {
+        this.name = name;
+        this.goodId = goodId;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -28,19 +29,19 @@ public class Category {
         this.name = name;
     }
 
-    public List<Good> getGoods() {
-        return goods;
+    public Integer getGood() {
+        return goodId;
     }
 
-    public void setGoods(List<Good> goods) {
-        this.goods = goods;
+    public void setGood(Integer good) {
+        this.goodId = good;
     }
 
     @Override
     public String toString() {
         return "Category{" +
                 "name='" + name + '\'' +
-                ", goods=" + goods +
+                ", goodsId=" + goodId +
                 '}';
     }
 }

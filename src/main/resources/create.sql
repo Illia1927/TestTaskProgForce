@@ -12,7 +12,7 @@ CREATE TABLE category(
 category_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
 name VARCHAR(100) NOT NULL UNIQUE,
 good_id INT NOT NULL,
-  FOREIGN KEY (good_id) REFERENCES good(good_id)
+  FOREIGN KEY (good_id) REFERENCES good(id)
 );
 
 3 step:
@@ -20,7 +20,7 @@ CREATE TABLE market(
   market_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
   name VARCHAR(50) NOT NULL,
   category_id INT NOT NULL,
-  FOREIGN KEY (category_id) REFERENCES category(category_id)
+  FOREIGN KEY (category_id) REFERENCES category(id)
 );
 
 4 step:
@@ -29,6 +29,3 @@ CREATE TABLE status(
   name VARCHAR(50) NOT NULL
 );
 
-next: insert data
-1 step:
-INSERT INTO good (title, price)

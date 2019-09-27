@@ -1,22 +1,39 @@
 package com.progForce.testTask.model;
 
-import java.util.List;
-
 public class Market {
-    private Long id;
+    private static volatile Market market = new Market();
+    private Integer id;
     private String name;
-    private List<Category> categories;
+    private Integer categoryId;
 
-    public Market(String name, List<Category> categories) {
-        this.name = name;
-        this.categories = categories;
+    public Market() {
     }
 
-    public Long getId() {
+    public Market(String name, Integer categoryId) {
+        this.name = name;
+        this.categoryId = categoryId;
+    }
+
+    public static synchronized Market getMarket(String name, Integer categoryId) {
+        if (market == null) {
+            synchronized (Market.class) {
+                if (market == null) {
+                    market = new Market(name, categoryId);
+                }
+            }
+        }
+        return market;
+    }
+
+    public static void setMarket(Market market) {
+        Market.market = market;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -28,19 +45,19 @@ public class Market {
         this.name = name;
     }
 
-    public List<Category> getCategories() {
-        return categories;
+    public Integer getCategoryId() {
+        return categoryId;
     }
 
-    public void setCategories(List<Category> categories) {
-        this.categories = categories;
+    public void setCategoryId(Integer categoryId) {
+        this.categoryId = categoryId;
     }
 
     @Override
     public String toString() {
         return "Market{" +
                 "name='" + name + '\'' +
-                ", categories=" + categories +
+                ", categoryId=" + categoryId +
                 '}';
     }
 }

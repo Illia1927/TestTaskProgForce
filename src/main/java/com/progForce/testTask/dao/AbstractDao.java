@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -26,7 +27,7 @@ public class AbstractDao<T, ID> implements CrudDao<T, ID> {
     }
 
     @Override
-    public T save(T entity) {
+    public Optional<T> save(T entity) {
         String query = getSaveQuery(entity);
         try {
             Statement statement = connection.createStatement();
@@ -34,7 +35,7 @@ public class AbstractDao<T, ID> implements CrudDao<T, ID> {
         } catch (SQLException e) {
             logger.error("Check your sql query " + e);
         }
-        return entity;
+        return Optional.of(entity);
     }
 
     @Override
@@ -50,7 +51,7 @@ public class AbstractDao<T, ID> implements CrudDao<T, ID> {
     }
 
     @Override
-    public T readById(ID id) {
+    public Optional<T> readById(ID id) {
         String query = getSelectQuery(id);
         T entity = null;
         try {
@@ -66,7 +67,7 @@ public class AbstractDao<T, ID> implements CrudDao<T, ID> {
         } catch (Exception e) {
             logger.error("Check your sql query " + e);
         }
-        return entity;
+        return Optional.of(entity);
     }
 
     @Override
@@ -111,6 +112,7 @@ public class AbstractDao<T, ID> implements CrudDao<T, ID> {
                 String buf;
                 if (field.getName().equals("id")) {
                     buf = "NULL";
+
                 } else if (!field.getType().isPrimitive()) {
                     buf = '\'' + field.get(entity).toString() + '\'';
                 } else {
