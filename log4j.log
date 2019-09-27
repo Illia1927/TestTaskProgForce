@@ -1,3 +1,125 @@
 2019-09-26 16:05:54 DEBUG JdbcConnector:27 - Connection to DB was not established: 
 2019-09-26 16:05:54 ERROR JdbcConnector:28 - java.sql.SQLSyntaxErrorException: Unknown database 'progforce_jdbc'
 2019-09-26 16:06:29 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 17:57:42 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:10:25 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:10:43 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:15:08 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:20:52 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:27:10 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:27:25 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:28:04 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:28:05 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:29:12 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:44:48 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:44:48 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 18:45:53 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 18:45:53 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Column count doesn't match value count at row 1
+2019-09-26 19:27:25 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 19:27:25 ERROR AbstractDao:35 - Check your sql query java.sql.SQLException: Incorrect integer value: 'AVAILABLE' for column 'status_id' at row 1
+2019-09-26 19:39:22 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:24:05 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'one', price=1488.0, status=AVAILABLE}, Good{title='two', price=300.0, status=EXP' at line 1
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'two', price=300.0, status=EXPECTED}, Good{title='two', price=300.0, status=EXPEC' at line 1
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'two', price=300.0, status=EXPECTED}, Good{title='two', price=300.0, status=EXPEC' at line 1
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'two', price=300.0, status=EXPECTED}, Good{title='two', price=300.0, status=EXPEC' at line 1
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shtoto', goods=[Good{title='one', price=1488.0, status=AVAILABLE}, Good{title='t' at line 1
+2019-09-26 20:24:06 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gdeto', goods=[Good{title='two', price=300.0, status=EXPECTED}, Good{title='two'' at line 1
+2019-09-26 20:26:20 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:35:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:35:27 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'one', price=1488.0, status=AVAILABLE}')' at line 1
+2019-09-26 20:35:27 ERROR AbstractDao:35 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'two', price=300.0, status=EXPECTED}')' at line 1
+2019-09-26 20:38:18 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:45:28 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:45:28 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:46:48 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:46:48 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:47:13 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:47:13 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:47:38 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:47:38 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:48:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:48:27 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:49:12 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:49:12 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:49:51 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:51:38 ERROR AbstractDao:67 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 20:51:47 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:51:48 ERROR AbstractDao:67 - Check your sql query java.lang.InstantiationException: com.progForce.testTask.model.Good
+2019-09-26 20:55:11 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:55:11 ERROR AbstractDao:67 - Check your sql query java.lang.InstantiationException: com.progForce.testTask.model.Good
+2019-09-26 20:57:20 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:57:20 ERROR AbstractDao:67 - Check your sql query java.lang.InstantiationException: com.progForce.testTask.model.Good
+2019-09-26 20:58:34 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:58:34 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Long field com.progForce.testTask.model.Good.id to java.lang.Integer
+2019-09-26 20:59:56 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 20:59:57 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Long field com.progForce.testTask.model.Good.id to java.lang.Integer
+2019-09-26 21:00:46 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:04:23 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Long field com.progForce.testTask.model.Good.id to java.lang.Integer
+2019-09-26 21:04:35 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:04:35 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:18:23 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:18:24 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:41:35 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:41:35 ERROR AbstractDao:67 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:54:51 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:54:52 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:55:49 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:55:50 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:57:04 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:57:04 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:57:49 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:57:49 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 21:58:47 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 21:58:48 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 22:00:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 22:00:27 ERROR AbstractDao:68 - Check your sql query java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+2019-09-26 22:01:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 22:01:27 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 22:05:58 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 22:05:59 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 22:07:11 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 22:07:11 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set com.progForce.testTask.model.Good$STATUS field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-26 22:07:25 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-26 22:07:25 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set com.progForce.testTask.model.Good$STATUS field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-27 00:05:44 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:05:45 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Enum field com.progForce.testTask.model.Good.status to java.lang.String
+2019-09-27 00:07:33 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:09:37 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:09:37 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T-Shirt', price=300.0, status=AVAILABLE}]')' at line 1
+2019-09-27 00:27:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:27:27 ERROR AbstractDao:68 - Check your sql query java.sql.SQLException: Column 'categoryGood' not found.
+2019-09-27 00:29:54 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:29:54 ERROR AbstractDao:68 - Check your sql query java.sql.SQLException: Column 'categoryGood' not found.
+2019-09-27 00:29:54 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T-Shirt', price=300.0, status=AVAILABLE}]')' at line 1
+2019-09-27 00:33:14 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:33:14 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T-Shirt', price=300.0, status=AVAILABLE}]')' at line 1
+2019-09-27 00:34:41 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:34:41 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T-Shirt', price=300.0, status=AVAILABLE}]')' at line 1
+2019-09-27 00:39:37 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:41:31 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:42:01 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:43:26 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:44:01 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:44:02 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Long field com.progForce.testTask.model.Category.id to java.lang.Integer
+2019-09-27 00:45:13 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:45:13 ERROR AbstractDao:68 - Check your sql query java.sql.SQLException: Column 'goodId' not found.
+2019-09-27 00:46:52 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:46:52 ERROR AbstractDao:68 - Check your sql query java.lang.IllegalArgumentException: Can not set java.lang.Long field com.progForce.testTask.model.Category.goodId to java.lang.Integer
+2019-09-27 00:47:27 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 00:52:53 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 01:32:42 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 01:32:43 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Bariga', '1')' at line 1
+2019-09-27 11:47:12 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:47:12 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
+2019-09-27 11:47:12 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Illia', '1')' at line 1
+2019-09-27 11:49:02 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:49:02 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
+2019-09-27 11:51:14 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:51:14 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
+2019-09-27 11:52:06 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:53:25 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
+2019-09-27 11:53:38 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:55:20 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
+2019-09-27 11:55:30 DEBUG JdbcConnector:21 - Connection is ok
+2019-09-27 11:55:30 ERROR AbstractDao:36 - Check your sql query java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null', categoryId=null}', NULL, 'Maria', '1')' at line 1
